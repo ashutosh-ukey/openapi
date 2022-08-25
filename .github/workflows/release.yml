@@ -1,0 +1,17 @@
+on:
+  push:
+    branches: [master]
+
+name: Generate Github Release
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    # outputs:
+    #   did-create-release: ${{ steps.release.outputs.release_created }}
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          release-type: simple
+          package-name: circle-openapi
+          changelog-path: false
