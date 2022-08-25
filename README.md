@@ -12,6 +12,7 @@ Files can be found in the `openapi/{json,yaml}` directory:
 * `general.{json,yaml}:` OpenAPI 3.0 spec for common endpoints shared across all Circle APIs.
 * `payments.{json,yaml}:` OpenAPI 3.0 spec for APIs to accept payments.
 * `payouts.{json,yaml}:` OpenAPI 3.0 spec for APIs to make payouts.
+* `test.{json,yaml}:` OpenAPI 3.0 spec for APIs to make payouts.
 
 
 [openapi]: https://www.openapis.org/
