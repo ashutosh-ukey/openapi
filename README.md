@@ -1,6 +1,6 @@
 # Circle's OpenAPI Specification
 
-Some feat
+Some feat, some breaking feat
 
 This repository contains [OpenAPI specifications][openapi] for Circle's API.
 
