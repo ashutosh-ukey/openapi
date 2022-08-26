@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: get-version
-        run: echo "::set-output name=version::$(cat version.txt)"
+        run: echo "::set-output name=version::$(cat VERSION)"
 
 
   release-please:
@@ -26,5 +26,4 @@ jobs:
         with:
           release-type: simple
           package-name: circle-openapi
-          version-file: VERSION
           release-as: ${{ needs.get-spec-version.outputs.spec-version }}
