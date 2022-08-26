@@ -11,7 +11,7 @@ jobs:
       spec-version: ${{ steps.get-version.outputs.version }}
     steps:
       - id: get-version
-        run: echo "::set-output name=version::$(cat version.txt)"
+        run: echo "::set-output name=version::$(cat ./version.txt)"
 
 
   release-please:
