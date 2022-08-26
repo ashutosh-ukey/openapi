@@ -4,7 +4,18 @@ on:
 
 name: Generate Github Release
 jobs:
+  get-spec-version:
+    name: Get OpenAPI document version from version.txt
+    runs-on: ubuntu-latest
+    outputs:
+      spec-version: ${{ steps.get-version.outputs. }}
+    steps:
+      - id: get-version
+        run: echo "::set-output name=version::$(cat version.txt)"
+
+
   release-please:
+    needs: get-spec-version
     runs-on: ubuntu-latest
     # outputs:
     #   did-create-release: ${{ steps.release.outputs.release_created }}
@@ -14,3 +25,5 @@ jobs:
         with:
           release-type: simple
           package-name: circle-openapi
+          version-file: VERSION
+          release-as: ${{ needs.get-spec-version.outputs.spec-version }}
