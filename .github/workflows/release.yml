@@ -14,4 +14,4 @@ jobs:
         with:
           release-type: simple
           package-name: circle-openapi
-          changelog-path: false
+          changelog-path: /
