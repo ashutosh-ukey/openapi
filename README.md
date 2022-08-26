@@ -1,5 +1,7 @@
 # Circle's OpenAPI Specification
 
+Some feat
+
 This repository contains [OpenAPI specifications][openapi] for Circle's API.
 
 [Changelog](https://github.com/circlefin/openapi/releases/)
