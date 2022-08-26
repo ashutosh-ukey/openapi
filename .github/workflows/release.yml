@@ -8,7 +8,7 @@ jobs:
     name: Get OpenAPI document version from version.txt
     runs-on: ubuntu-latest
     outputs:
-      spec-version: ${{ steps.get-version.outputs. }}
+      spec-version: ${{ steps.get-version.outputs.version }}
     steps:
       - id: get-version
         run: echo "::set-output name=version::$(cat version.txt)"
