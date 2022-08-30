@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.5](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.4...v1.0.5) (2022-08-30)
+
+
+### Bug Fixes
+
+* testing ([72c8a47](https://github.com/ashutosh-ukey/openapi-internal/commit/72c8a474a8c2cbc22e2f572c4f18f9530ce1c960))
+
+## [1.0.4](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.3...v1.0.4) (2022-08-30)
+
+
+### Bug Fixes
+
+* revert tag casing ([c3a7a47](https://github.com/ashutosh-ukey/openapi-internal/commit/c3a7a476f91c2026346ad1ebeaf54d36531300be))
+
 ## [1.0.3](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.2...v1.0.3) (2022-08-30)
 
 
