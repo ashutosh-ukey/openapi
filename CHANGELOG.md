@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.1](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.1.0...v1.1.1) (2022-09-01)
+
+
+### Bug Fixes
+
+* clear messages ([01ba828](https://github.com/ashutosh-ukey/openapi-internal/commit/01ba828c63e39c3ff9ea1427dac28c5cf7d64518))
+
+## [1.1.0](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.5...v1.1.0) (2022-09-01)
+
+
+### Features
+
+* test workflow ([a7d6d41](https://github.com/ashutosh-ukey/openapi-internal/commit/a7d6d41b8a61fb703e5f572e9e70f8560d6441e2))
+
 ## [1.0.5](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.4...v1.0.5) (2022-08-30)
 
 
