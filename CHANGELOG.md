@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.1.1...v1.1.2) (2022-09-01)
+
+
+### Bug Fixes
+
+* revert README ([a337e2d](https://github.com/ashutosh-ukey/openapi-internal/commit/a337e2dd51c0addc6e8187c0c4aae44d0a84ae3c))
+
 ## [1.1.1](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.1.0...v1.1.1) (2022-09-01)
 
 
