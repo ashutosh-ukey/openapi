@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.2...v1.0.3) (2022-09-09)
+
+
+### Bug Fixes
+
+* rename ping path ([c552162](https://github.com/ashutosh-ukey/openapi-internal/commit/c5521629f6d6a0715d85524f8eaa7f66cb7e49f1))
+
 ## [1.0.2](https://github.com/ashutosh-ukey/openapi-internal/compare/v1.0.1...v1.0.2) (2022-09-09)
 
 
