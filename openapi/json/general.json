@@ -6,7 +6,7 @@
     }
   ],
   "info": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "title": "API Overview",
     "description": "Common endpoints shared across all Circle APIs."
   },
@@ -39,9 +39,9 @@
   "paths": {
     "/ping": {
       "get": {
-        "summary": "Boing",
+        "summary": "Ping",
         "description": "Checks that the service is running.",
-        "operationId": "rootBoing",
+        "operationId": "rootPing",
         "tags": [
           "Health"
         ],
