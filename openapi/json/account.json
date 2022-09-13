@@ -6,9 +6,9 @@
     }
   ],
   "info": {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "title": "Core Functionality",
-    "description": "APIs for managing your account balance. These endpoints are available with all Circle APIs."
+    "description": "APIs for managing your account balance (available with all Circle APIs)."
   },
   "tags": [
     {
