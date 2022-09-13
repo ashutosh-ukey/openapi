@@ -2,7 +2,7 @@ openapi: 3.0.2
 servers:
 - url: api-sandbox.circle.com
 info:
-  version: 1.0.5
+  version: 1.0.6
   title: API Overview
   description: Common endpoints shared across all Circle APIs.
 tags:
@@ -22,9 +22,9 @@ tags:
 paths:
   /ping:
     get:
-      summary: Ping
+      summary: Boing
       description: Checks that the service is running.
-      operationId: rootPing
+      operationId: rootBoing
       tags:
       - Health
       responses:
